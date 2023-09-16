@@ -3,8 +3,6 @@
 </p>
 <h1 align="center">C4_deployment-3<h1> 
 
-Certainly! Here's a markdown-formatted `README.md` for your project based on the information you've provided:
-
 ---
 
 # Automating Pipeline with GitHub and Elastic Beanstalk
