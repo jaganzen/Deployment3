@@ -73,7 +73,12 @@ Before proceeding, install the following packages:
 
 ### 4. Create a Multibranch Pipeline
 
-After setting up Jenkins, create a multibranch pipeline and initiate the build for your application.
+After setting up Jenkins, create a multibranch pipeline and initiate the build for your application. And add your Github login credentials with the personal access token that was made.
+![Jenkins1](https://github.com/jaganzen/Deployment3/assets/101806502/3322b810-03af-43d2-b93a-90f71d0ea29d)
+
+![Jenkins 2](https://github.com/jaganzen/Deployment3/assets/101806502/1373f29b-cf0b-402c-8712-a433085afa27)
+
+![Screenshot 2023-09-15 at 11 00 30 PM](https://github.com/jaganzen/Deployment3/assets/101806502/ec89bc44-84f1-41c1-9c26-ff535406d395)
 
 ### 5. AWS Setup
 
@@ -84,17 +89,22 @@ Follow the provided guides to set up AWS CLI and AWS EB CLI:
 
 ### 6. Deployment Stage
 
-Upon successful build and test, you should see the following stage:
+Upon successful build and test, you should see this: 
+![Build Success](https://github.com/jaganzen/Deployment3/assets/101806502/156b98a9-593e-4149-8c11-8cd8d277e9c1)
 
-```
-Application Deployed Successfully
-```
+![Build Success 2](https://github.com/jaganzen/Deployment3/assets/101806502/8d577bcb-7a0a-485f-856e-d641a2ab3b5e)
+
+![Screenshot 2023-09-16 at 1 19 19 AM](https://github.com/jaganzen/Deployment3/assets/101806502/a99f84b2-9ebc-4764-8544-77696887c8b8)
+
 
 ### 7. Webhook Configuration
 
 To configure a webhook for Jenkins deployment using GitHub, follow the guide:
 
 - [Setting up a GitHub webhook for Jenkins deployment](https://scribehow.com/shared/Setting_up_a_GitHub_webhook_for_Jenkins_deployment__OCRQGNvARfWF4clyeFcsGQ)
+
+![Webhook Configured](https://github.com/jaganzen/Deployment3/assets/101806502/c530cb02-246f-4120-9fbc-5909b37d84d9)
+
 
 ---
 
@@ -104,4 +114,6 @@ If you need additional setup details for IAM Profiles, refer to the instructions
 
 ---
 
-This `README.md` file is structured to provide a clear understanding of the project and its setup process. Adjustments can be made based on project specifics or any additional details you'd like to add.
+![Deployment 3 drawio](https://github.com/jaganzen/Deployment3/assets/101806502/4265030f-e46d-45f1-a29b-6f5b5133470f)
+
+
