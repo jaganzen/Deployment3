@@ -7,11 +7,12 @@
 
 # Automating Pipeline with GitHub and Elastic Beanstalk
 
-This project aims to automate the process of creating a pipeline using GitHub and AWS Elastic Beanstalk. We also incorporated a webhook to trigger our pipeline whenever changes are made to our GitHub repository. This is made possible by directly linking Jenkins to our GitHub repository.
+The goal of this project is to automate the process of creating a pipeline using GitHub and AWS Elastic Beanstalk. I had incorporated a webhook to trigger our pipeline whenever changes are made to our GitHub repository. This is made possible by directly linking Jenkins to our GitHub repository.
 
 ## Issues Faced
 
 During deployment, we encountered issues with conflicting dependencies and packages. The conflicts arose mainly due to the order in which we executed certain steps.
+Thanks to one of my colleagues, and failing at deploying the project at several attempts, we had to make sure that we downloaded our pip packages AFTER we created our Multibranch Pipeline. 
 
 ## Deployment Instructions
 
