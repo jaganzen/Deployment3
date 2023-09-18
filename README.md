@@ -107,7 +107,11 @@ To configure a webhook for Jenkins deployment using GitHub, follow the guide:
 
 - [Setting up a GitHub webhook for Jenkins deployment](https://scribehow.com/shared/Setting_up_a_GitHub_webhook_for_Jenkins_deployment__OCRQGNvARfWF4clyeFcsGQ)
 
-![Webhook Configured](https://github.com/jaganzen/Deployment3/assets/101806502/c530cb02-246f-4120-9fbc-5909b37d84d9)
+What our deployment looked like before we configured the webhook:
+<img width="1361" alt="Before" src="https://github.com/jaganzen/Deployment3/assets/101806502/61da6623-d68f-4f4e-8feb-ef9a8e9d16fb">
+
+What our deployment looks like after we configure the webhook (in the red box):
+<img width="1680" alt="Deployment 3 Complete" src="https://github.com/jaganzen/Deployment3/assets/101806502/2105fbb3-216d-4d7a-badb-658a02f2f462">
 
 
 ---
