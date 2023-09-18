@@ -81,6 +81,11 @@ After setting up Jenkins, create a multibranch pipeline and initiate the build f
 
 ### 5. AWS Setup
 
+Before proceeding, install the following packages:
+
+- `sudo apt install python-pip`
+- `sudo apt install python3-pip`
+
 Follow the provided guides to set up AWS CLI and AWS EB CLI:
 
 - [How to Install AWS CLI](https://scribehow.com/shared/How_to_Install_AWS_CLI__1MnhqmpcRxupkx_F-EcreQ)
